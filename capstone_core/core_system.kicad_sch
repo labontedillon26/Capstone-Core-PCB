@@ -3154,7 +3154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "US8_2P40X2P10_ONS"
+		(property "Footprint" "Capstone Footprints:LevelShift_US8_2P40X2P10_ONS"
 			(at 148.59 133.35 0)
 			(effects
 				(font
@@ -3927,7 +3927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZED-F9P:Zed F9P"
+		(property "Footprint" "Capstone Footprints:ZED-F9P"
 			(at 222.25 58.42 0)
 			(effects
 				(font
