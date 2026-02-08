@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LM2676SX")(type "KiCad")(uri "${KIPRJMOD}/LM2676SX.kicad_sym")(options "")(descr ""))
+  (lib (name "LM2596S-5")(type "KiCad")(uri "${KIPRJMOD}/LM2596S-5.kicad_sym")(options "")(descr ""))
+  (lib (name "LP2985-33DBVR")(type "KiCad")(uri "${KIPRJMOD}/LP2985-33DBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "LP2985-18DBVR")(type "KiCad")(uri "${KIPRJMOD}/LP2985-18DBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "LM26460Q5RPHRQ1")(type "KiCad")(uri "${KIPRJMOD}/LM26460Q5RPHRQ1.kicad_sym")(options "")(descr ""))
+)

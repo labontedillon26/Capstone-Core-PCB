@@ -1,0 +1,154 @@
+ERC report (2026-01-26T21:24:24-0500, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_issues]: The current configuration does not include the symbol library 'LM2596S-5'
+    ; warning
+    @(9.100 in, 3.350 in): Symbol U4 [LM2596S-5.0]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(6.700 in, 5.500 in): Symbol U9 Pin 5 [BIAS, Unspecified, Line]
+    @(7.800 in, 5.700 in): Symbol L4 Pin 2 [2, Passive, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(6.700 in, 5.700 in): Symbol U9 Pin 16 [SW, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(6.700 in, 6.200 in): Symbol U9 Pin 3 [RBOOT, Unspecified, Line]
+    @(6.700 in, 6.000 in): Symbol U9 Pin 4 [CBOOT, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(6.700 in, 6.000 in): Symbol U9 Pin 4 [CBOOT, Unspecified, Line]
+    @(7.150 in, 6.000 in): Symbol Cboot1 Pin 2 [Passive, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(10.700 in, 5.650 in): Symbol #PWR066 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Output and Power output are connected
+    ; error
+    @(10.100 in, 7.450 in): Symbol U7 Pin 5 [VOUT, Output, Line]
+    @(12.300 in, 1.650 in): Symbol #FLG015 Pin 1 [Power output, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'LP2985-18DBVR'
+    ; warning
+    @(9.400 in, 7.750 in): Symbol U7 [LP2985-18DBVR]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(5.400 in, 2.650 in): Symbol J3 Pin 1 [1, Unspecified, Line]
+    @(5.750 in, 2.550 in): Symbol #PWR039 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(5.400 in, 1.800 in): Symbol J2 Pin 9 [9, Unspecified, Line]
+    @(5.500 in, 1.950 in): Symbol #PWR040 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5.400 in, 1.600 in): Symbol J2 Pin 7 [7, Unspecified, Line]
+    @(2.250 in, 1.650 in): Symbol J1 Pin 12 [Pin_12, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5.400 in, 1.700 in): Symbol J2 Pin 8 [8, Unspecified, Line]
+    @(2.250 in, 2.950 in): Symbol J1 Pin 38 [Pin_38, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5.400 in, 1.400 in): Symbol J2 Pin 5 [5, Unspecified, Line]
+    @(1.750 in, 1.450 in): Symbol J1 Pin 7 [Pin_7, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(5.400 in, 1.300 in): Symbol J2 Pin 4 [4, Unspecified, Line]
+    @(5.400 in, 2.950 in): Symbol J3 Pin 4 [4, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5.400 in, 1.500 in): Symbol J2 Pin 6 [6, Unspecified, Line]
+    @(1.750 in, 2.550 in): Symbol J1 Pin 29 [Pin_29, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(5.400 in, 1.000 in): Symbol J2 Pin 1 [1, Unspecified, Line]
+    @(5.700 in, 0.950 in): Symbol #PWR038 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(5.400 in, 1.100 in): Symbol J2 Pin 2 [2, Unspecified, Line]
+    @(5.900 in, 1.050 in): Symbol #PWR042 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(5.400 in, 1.200 in): Symbol J2 Pin 3 [3, Unspecified, Line]
+    @(5.400 in, 2.850 in): Symbol J3 Pin 3 [3, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(5.400 in, 3.450 in): Symbol J3 Pin 9 [9, Unspecified, Line]
+    @(5.600 in, 3.600 in): Symbol #PWR041 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5.400 in, 3.250 in): Symbol J3 Pin 7 [7, Unspecified, Line]
+    @(1.750 in, 2.850 in): Symbol J1 Pin 35 [Pin_35, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5.400 in, 3.350 in): Symbol J3 Pin 8 [8, Unspecified, Line]
+    @(2.250 in, 3.050 in): Symbol J1 Pin 40 [Pin_40, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(5.400 in, 2.750 in): Symbol J3 Pin 2 [2, Unspecified, Line]
+    @(6.000 in, 2.650 in): Symbol #PWR043 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(5.400 in, 2.850 in): Symbol J3 Pin 3 [3, Unspecified, Line]
+    @(2.850 in, 4.600 in): Symbol U2 Pin 5 [SDA, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5.400 in, 3.150 in): Symbol J3 Pin 6 [6, Unspecified, Line]
+    @(1.750 in, 2.150 in): Symbol J1 Pin 21 [Pin_21, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(5.400 in, 2.950 in): Symbol J3 Pin 4 [4, Unspecified, Line]
+    @(2.850 in, 4.400 in): Symbol U2 Pin 6 [SCL, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5.400 in, 3.050 in): Symbol J3 Pin 5 [5, Unspecified, Line]
+    @(2.250 in, 2.250 in): Symbol J1 Pin 24 [Pin_24, Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'ZED_F9P'
+    ; warning
+    @(2.050 in, 6.400 in): Symbol U1 [ZED-F9P]
+[pin_to_pin]: Pins of type Unspecified and Input are connected
+    ; warning
+    @(2.850 in, 4.600 in): Symbol U2 Pin 5 [SDA, Unspecified, Line]
+    @(1.350 in, 6.650 in): Symbol U1 Pin 4 [SCL, Input, Line]
+[pin_to_pin]: Pins of type Unspecified and Input are connected
+    ; warning
+    @(2.850 in, 4.400 in): Symbol U2 Pin 6 [SCL, Unspecified, Line]
+    @(1.350 in, 6.800 in): Symbol U1 Pin 3 [SDA, Input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(5.100 in, 6.700 in): Symbol U9 Pin 9 [RT, Unspecified, Line]
+    @(5.100 in, 6.500 in): Symbol U9 Pin 6 [VCC, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(5.100 in, 5.900 in): Symbol U9 Pin 11 [SpSp, Unspecified, Line]
+    @(5.100 in, 6.500 in): Symbol U9 Pin 6 [VCC, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5.100 in, 6.500 in): Symbol U9 Pin 6 [VCC, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'LM26460Q5RPHRQ1'
+    ; warning
+    @(5.900 in, 5.850 in): Symbol U9 [LM62460Q5RPHRQ1]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5.400 in, 8.900 in): Symbol U3 Pin 8 [TAB, Unspecified, Line]
+    @(5.900 in, 9.750 in): Symbol D2 Pin 2 [A, Passive, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'LM2676SX'
+    ; warning
+    @(2.800 in, 8.900 in): Symbol U3 [LM2676SX-12_NOPB]
+[pin_to_pin]: Pins of type Output and Power output are connected
+    ; error
+    @(15.300 in, 7.050 in): Symbol U8 Pin 5 [VOUT, Output, Line]
+    @(10.700 in, 1.650 in): Symbol #FLG013 Pin 1 [Power output, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'LM2596S-5'
+    ; warning
+    @(13.550 in, 3.350 in): Symbol U5 [LM2596S-5.0]
+[pin_to_pin]: Pins of type Output and Power output are connected
+    ; error
+    @(15.250 in, 5.150 in): Symbol U6 Pin 5 [VOUT, Output, Line]
+    @(11.500 in, 1.650 in): Symbol #FLG014 Pin 1 [Power output, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'LP2985-33DBVR'
+    ; warning
+    @(14.650 in, 5.350 in): Symbol U6 [LP2985-33DBVR]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'LP2985-33DBVR'
+    ; warning
+    @(14.700 in, 7.250 in): Symbol U8 [LP2985-33DBVR]
+
+ ** ERC messages: 40  Errors 6  Warnings 34

@@ -1,0 +1,223 @@
+(footprint "IMU_Breakout_Module"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U"
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "410552a7-6b95-4d7f-bff4-1b04997a2865")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5c8f68d4-0191-410d-8608-31552cdb09f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC031LFBN-RC/810143"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22efba1e-4907-4436-973c-813e21bbe48f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "IMU Breakout Module"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5db5bca-8339-4027-9cb6-248951b953ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 4.3 -7.2)
+		(end 4.8 -7.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8daacf66-31c2-400f-a98a-42b97a49fee0")
+	)
+	(fp_line
+		(start 4.8 -7.7)
+		(end 4.3 -7.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0dfa67ae-2ee4-4629-9eb9-0939559a055f")
+	)
+	(fp_line
+		(start 4.8 -6.7)
+		(end 4.3 -7.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "621e1f20-adc8-46c5-a21a-e208a74acd93")
+	)
+	(fp_line
+		(start 6.3 -7.2)
+		(end 4.3 -7.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ba7d2f7c-3e19-49c7-a5d5-2a3419c10263")
+	)
+	(fp_line
+		(start 6.3 -7.2)
+		(end 6.3 -5.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "49ea4881-d540-4358-acbf-25edaee32be7")
+	)
+	(fp_line
+		(start 6.3 -5.2)
+		(end 5.8 -5.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "72c71c5a-b105-4ad0-b44a-f426a9b0138a")
+	)
+	(fp_line
+		(start 6.3 -5.2)
+		(end 6.8 -5.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "86e6b54b-c1f7-4b88-ab21-c2321a20f3a3")
+	)
+	(fp_line
+		(start 6.8 -5.7)
+		(end 6.3 -5.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e35be563-1c6b-4c90-a4f6-fe9e0a3d435d")
+	)
+	(fp_circle
+		(center 6.3 -7.2)
+		(end 6.8 -7.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8dfb7759-7e09-4d5b-b0e1-a8138967edd7")
+	)
+	(fp_text user "X"
+		(at 4.8 -7.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "458c4fc6-4213-45a3-935c-ad1a78b44d88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Y"
+		(at 6.8 -5.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7c6d56e0-5437-491b-863f-70097ffe6f1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -6.35 -2.54)
+		(size 1.5 1.5)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d56c94b-9f0a-40c0-b2a4-6815eb3f97a1")
+	)
+	(pad "2" thru_hole circle
+		(at -6.35 0)
+		(size 1.5 1.5)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "95b4404d-0919-4f2e-924e-9de02f6a326e")
+	)
+	(pad "3" thru_hole circle
+		(at -6.35 2.54)
+		(size 1.5 1.5)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "88fb605e-6974-4bdf-8869-02ecbd64bf9a")
+	)
+	(pad "4" thru_hole circle
+		(at 6.35 2.54)
+		(size 1.5 1.5)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4632e78d-85ae-4660-9058-2770224851e6")
+	)
+	(pad "5" thru_hole circle
+		(at 6.35 0)
+		(size 1.5 1.5)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4127ddf2-c7f0-4a6e-8804-34a09a9d0528")
+	)
+	(pad "6" thru_hole circle
+		(at 6.35 -2.54)
+		(size 1.5 1.5)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9f4b314-5517-4759-9842-cf3c91840306")
+	)
+	(embedded_fonts no)
+)

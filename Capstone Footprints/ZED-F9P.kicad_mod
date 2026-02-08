@@ -1,4 +1,4 @@
-(footprint "Untitled"
+(footprint "ZED-F9P"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -57,17 +57,6 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -21.59 21.59)
-		(end 21.59 -21.59)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "0948e7f5-f280-473e-be5d-b764e87198c4")
-	)
-	(fp_rect
 		(start -20.32 -9.144)
 		(end -17.78 16.764)
 		(stroke
@@ -99,30 +88,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "53613b39-36c1-4f55-a2e6-f48fae5c022c")
-	)
-	(pad "" thru_hole circle
-		(at -19.05 -19.05)
-		(size 7.4 7.4)
-		(drill 4.4)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "cf985eda-97e9-4f23-a8f4-97d8ee2e3289")
-	)
-	(pad "" thru_hole circle
-		(at 19.05 -19.05)
-		(size 7.4 7.4)
-		(drill 4.4)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "f88457cb-8555-4522-b0c1-37a81ca5c8c7")
-	)
-	(pad "" thru_hole circle
-		(at 19.05 19.05)
-		(size 7.4 7.4)
-		(drill 4.4)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "eae348c6-d072-40b7-b701-afda6439dbe4")
 	)
 	(pad "1" thru_hole circle
 		(at -19.05 -7.62)
